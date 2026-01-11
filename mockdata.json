@@ -22,5 +22,21 @@
         "tempo": 160,
         "energy": 0.8,
         "valence": 0.4
+    },
+    {
+        "id": 4,
+        "title": "Track B",
+        "artist": "Artist One",
+        "tempo": 90,
+        "energy": 0.8,
+        "valence": 0.4
+    },
+    {
+        "id": 5,
+        "title": "Track C",
+        "artist": "Artist One",
+        "tempo": 140,
+        "energy": 0.8,
+        "valence": 0.4
     }
 ]

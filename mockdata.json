@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Track A",
+        "artist": "Artist One",
+        "tempo": 120,
+        "energy": 0.75,
+        "valence": 0.6
+    },
+    {
+        "id": 2,
+        "title": "Track B",
+        "artist": "Artist Two",
+        "tempo": 90,
+        "energy": 0.4,
+        "valence": 0.2
+    },
+    {
+        "id": 3,
+        "title": "Track C",
+        "artist": "Artist Three",
+        "tempo": 160,
+        "energy": 0.8,
+        "valence": 0.4
+    }
+]

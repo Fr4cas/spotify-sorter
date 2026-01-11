@@ -1,3 +1,5 @@
+
+// Data rendering
 function renderGroupedTracks(groupedTracks) {
     const output = document.getElementById("output");
     output.innerHTML = "";
@@ -19,6 +21,7 @@ function renderGroupedTracks(groupedTracks) {
     }
 }
 
+// Data fetching
 fetch("mockdata.json")
     .then(response => response.json())
     .then(data => {
@@ -40,6 +43,8 @@ fetch("mockdata.json")
         console.error("Error loading data:", error);
     });
 
+
+// Sorting functions
 function groupByAttribute(tracks, attribute) {
     return tracks.reduce((groups, track) => {
         const key = track[attribute];

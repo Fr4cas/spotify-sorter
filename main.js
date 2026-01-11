@@ -1,3 +1,10 @@
+// For changing between datasets
+const DATASET = "large"; // change to "small" or "large"
+
+const dataPath =
+    DATASET === "large"
+        ? "data_large.json"
+        : "mockdata.json";
 
 // Data rendering
 function renderGroupedTracks(groupedTracks) {
@@ -22,7 +29,7 @@ function renderGroupedTracks(groupedTracks) {
 }
 
 // Data fetching
-fetch("mockdata.json")
+fetch(dataPath)
     .then(response => response.json())
     .then(data => {
         console.log("Original data:", data);

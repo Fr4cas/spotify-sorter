@@ -60,3 +60,29 @@ function sortTracksByAttribute(tracks, attribute) {
         return 0;
     });
 }
+
+/* Temoorary code used to generate the large dataset
+
+const artists = [
+    "Artist One",
+    "Artist Two",
+    "Artist Three",
+    "Artist Four",
+    "Artist Five"
+];
+
+const tracks = [];
+
+for (let i = 1; i <= 500; i++) {
+    tracks.push({
+        id: i,
+        title: `Track ${i}`,
+        artist: artists[i % artists.length],
+        tempo: Math.floor(Math.random() * 80) + 80,
+        energy: Math.random().toFixed(2),
+        valence: Math.random().toFixed(2)
+    });
+}
+
+console.log(JSON.stringify(tracks, null, 2)); 
+*/
